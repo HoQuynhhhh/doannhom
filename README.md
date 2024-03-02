@@ -10,7 +10,7 @@ import java.util.ArrayList;
 	}
 
 	abstract class TV implements IELECTRONICE_DEVICE {
-		String acvfdgfđfgdgfdfgdfgdg;
+		
 		private String tvID;
 		private String manifacturer;
 		private String entryDate;

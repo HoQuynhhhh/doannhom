@@ -230,7 +230,7 @@ import java.util.ArrayList;
 			Scanner objSc = new Scanner(System.in);
 			System.out.print("\n\nNHAP ID CAN XOA: ");
 			tvID=objSc.nextLine();
-			for (int i = 0; i < list.size(); i--) {
+			for (int i = 0; i < list.size(); i++) {
 				if(list.get(i).getTvID().contains(tvID)) {
 					list.remove(i);
 				}
